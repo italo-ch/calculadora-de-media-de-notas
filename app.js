@@ -4,7 +4,7 @@ const calculateAverageButton = document.querySelector('.calculate-average');
 const showGradesContainer = document.querySelector('.show-grades-container');
 const average = document.querySelector('.average-result');
 
-const grades = []
+let grades = []
 
 function handleAddNewGrade() {
     const grade = inputGrade.value;
@@ -43,6 +43,7 @@ function handleCalculateAverage() {
     }
     average.textContent = (total / grades.length).toFixed(2);
     showGradesContainer.textContent = '';
+    grades = [];
 }
 
 addNewGradeButton.addEventListener('click', handleAddNewGrade);

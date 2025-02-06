@@ -1,5 +1,7 @@
 # Calculadora de média de notas | IN Junior 🐺
 
+![App Screenshot](/screenshot.png)
+
 A tarefa consiste na criação de uma calculadora de média de notas
 utilizando HTML, CSS e DOM.
 
