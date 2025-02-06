@@ -8,5 +8,27 @@
     <script src="/app.js" defer></script>
 </head>
 <body>
+    <main>
+        <h1>Média das Notas dos Alunos</h1>
+        <div class="calculator-container">
+            <div class="insert-grades-container">
+                <label for="nota">
+                    Nota: 
+                    <input id="nota" type="text" class="input-grade">
+                </label>
+                <button class="button add-new-grade">Adicionar</button>
+            </div>
+            <div class="show-grades-container">
+            </div>
+            <div class="show-average-container">
+                <button class="button calculate-average">
+                    Calcular média
+                </button>
+                <span>
+                    A média é: <span class="average-result"></span>
+                </span>
+            </div>
+        </div>
+    </main>
 </body>
 </html>
