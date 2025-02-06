@@ -20,7 +20,7 @@ utilizando HTML, CSS e DOM.
 3. Abra no navegador
 
 ## Acesso ao projeto
-
+- [https://calculadora-de-media-de-notas.netlify.app/](https://calculadora-de-media-de-notas.netlify.app/)
 
 ## Autores
 
